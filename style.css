@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+button{
+    padding: 5px 10px ;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px ;
+    border-color: blueviolet;;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+h1{
+  font-size: 50px;
+  color: blueviolet;
+  text-align: center;
+}
+#navBar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    text-align: center;
+    position: sticky;
+    z-index: -10px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.Links{
+    display: flex;
+}
+.Links li{
+    list-style: none;
+    padding-top: 10px;
+}
+.Links li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size:20px;
+    font: bold;
+    color: blueviolet;
+}
+.h-Section{
+    padding: 100px 30px;
+    text-align: center;
+}
+.h-Section img{
+  width: 90%;
+  height: auto;
+}
+.h-Section p{
+    padding: 20px 200px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+}
+.about-Section{
+    padding: 100px 30px;
+    text-align: center;
+}
+.about-Section p{
+    padding: 20px 20px;
+    line-height: 1.9;
+    letter-spacing: 1px;
+}
+.btn{
+    margin-top: 10px;
+}
+.for-services{
+    display: flex;
+    margin: 10px 50px;
+    justify-content: space-between;
+    height: 100vh;
+}
+.serviceCard{
+    width: 330px;
+    height: 100vh;
+    padding: 10px 10px;
+}
+.serviceCard img{
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.for-Products{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: azure;
+    margin: 30px auto;
+    padding: 30px 50px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    /* perspective: 1000px;      Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;  
+  }
+  .flip-card-front img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  /* Style the back side */
+  .flip-card-back {
+    border-radius: 10px;
+    padding-top: 100px;
+    background-color: blueviolet;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+footer{
+    background-color: blueviolet;
+    padding: 20px 50px;
+}
+footer p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+footer p span{
+  color: white;
+}

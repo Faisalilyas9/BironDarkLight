@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BIRON</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="conTainer">
+        <!-- Navbar -->
+        <div id="navBar">
+            <div class="logo">
+                <a href="#"><img src="./images/logoimag.png" alt=""></a>
+            </div>
+            <div class="Links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services </a></li>
+                <li><a href="#products">Products</a></li>
+            </div>
+            <div class="mood">
+              <button id="btnDarkMode" onclick="dayAndNight()">Light Mode</button>
+            </div>
+        </div>
+        <!-- Hero Section -->
+        <div class="h-Section" id="home">
+            <h1>
+                BIRON
+            </h1>
+            <img src="./images/pngwing.png" alt="">
+            <p>
+              BIRON® gems are known for their exceptional quality, and we are 100% committed to supplying the most spectacular stones with your success as our priority.
+              Deviation, if any, solely as per agreed specification for products set out in the order.
+              100% inspection of products before shipment.
+              Return and exchange of products subject to time and stock availability conditions.
+              Delivery within the agreed time in the absence of events beyond our control.
+            </p>
+        </div>
+        <!-- About Section -->
+        <div class="about-Section" id="about">
+          <h1>
+              About Company
+          </h1>
+          <p>
+            Five years from now, will you regret not grasping an opportunity that may be worth millions of dollars?
+            Have you struggled about whether to give the lab-grown jewellery business a chance – especially when the media say the market is extremely vibrant?            
+            You may worry that your clients might feel confused about your brand if you offer lab-grown gems in your jewellery.  However, will you feel embarrassed if you become left behind by your competitors and the jewellery industry?
+            Since 1984, we have been sourcing and supplying exceptional gems of all shapes, sizes, cuts, and quantities for brands and dealers in five continents.
+            In 2015, we began growing our own emeralds using the BIRON® Process, which uses our own formula built on the hydrothermal process for creating the sought-after colour of Colombian green emeralds.
+            The media has shown there is a fast-growing population of sustainability-conscious consumers looking forward to intricate and artistically designed jewellery featuring lab-grown gems of spectacular quality.
+          </p>
+      </div>
+        <!-- Services -->
+        <div class="heading" id="services">
+          <h1>Serives</h1>
+        </div>
+        <div class="for-services">
+            <div class="serviceCard">
+                <img src="./images/services/service1.png" alt="">
+                <h2>Gemstone Sourcing</h2>
+                <p id="paragraph1">
+                  Our inventory includes lab-grown emeralds, rubies, sapphires, padparadschas, alexandrites
+                </p>
+                 <button class="btn" id="btnContent1" onclick="readMoreLess()">Read More</button>
+            </div>
+            <div class="serviceCard">
+                <img src="./images/services/service2.png" alt="">
+                <h2>Cutting & Polishing</h2>
+                <p id="paragraph2">
+                  At BIRON, we have our own stone-cutting factory that provides a complete spectrum of lapidary
+                </p>
+                 <button class="btn" id="btnContent2" onclick="readMoreLess2()">Read More</button>
+            </div>
+            <div class="serviceCard">
+                <img src="/images/services/service3.png" alt="">
+                <h2>Bespoke Jewellery</h2>
+                <p id="Bespoke-para">
+                  Our in-house experts can help you design the most beautiful fine jewellery settings for your
+                </p>
+                <button class="btn" id="Bespoke-btn" onclick="BespokeMoreLess()">Read More</button>
+            </div>
+            <div class="serviceCard">
+                <img src="/images/services/service4.png" alt="">
+                <h2>Delivery</h2>
+                <p id="Delivery-paragraph">
+                  Our team is always ready to discuss and manage realistic timelines for production and delivery
+                </p>
+                 <button class="btn" id="Delivery-btnContent" onclick="DeliveryMoreLess()">Read More</button>
+            </div>
+        </div>
+        <!-- Products -->
+        <div class="heading" id="products">
+          <h1>Products</h1>
+        </div>
+        <div class="for-Products">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/produtcs/product1.png" alt="Avatar" >
+                </div>
+                <div class="flip-card-back">
+                  <h3 style="padding-top: 50px;">Dimond </h3>
+                  <p style="padding: 10px 0px;">Very Precious Stone</p>
+                  <p>Price: $4500</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/produtcs/product2.png" alt="Avatar" >
+                </div>
+                <div class="flip-card-back">
+                  <h3 style="padding-top: 50px;">Topaz</h3>
+                  <p style="padding: 10px 0px;">Semi Precious Stone</p>
+                  <p>Price: $500</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/produtcs/product3.png" alt="Avatar" >
+                </div>
+                <div class="flip-card-back">
+                  <h3 style="padding-top: 50px;">Lapis Lazuli</h3>
+                  <p style="padding: 10px 0px;">Semi Precious Stone</p>
+                  <p>Price: $1500</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/produtcs/product4.png" alt="Avatar" >
+                </div>
+                <div class="flip-card-back">
+                  <h3 style="padding-top: 50px;">Star Ruby </h3>
+                  <p style="padding: 10px 0px;">Very Precious Stone</p>
+                  <p>Price: $4000</p>
+                </div>
+              </div>
+            </div>
+    </div>
+    <footer>
+      <p>
+        All Copy Rights Reserved.2024 by <span>Faisal Ilyas</span>
+      </p>
+    </footer>
+
+    <script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
